@@ -6,18 +6,22 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: poppins;
-  color: grey;
+  color: #18191A;
+}
+
+#login-area h1{
+  color: #ff5456;
 }
 
 h1 span {
-  color: salmon;
+  color: navy;
 }
 
 .submit-area,
 #withdraw,
 #deposit {
   border-radius: 10px;
-  border: lightgrey 1px solid;
+  border: grey 1px solid;
   padding: 50px;
 }
 

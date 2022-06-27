@@ -19,9 +19,9 @@
       <!-- Login Form -->
       <div class="container submit-area">
          <h3>Login</h3>
-         <input class="form-control" type="email" placeholder="email">
+         <input class="form-control" type="email" placeholder="email" autocomplete="email" autofocus>
          <br>
-         <input class="form-control" type="password" name="" id="" placeholder="password">
+         <input class="form-control" type="password" name="" id="" placeholder="password" autocomplete="current-password" autofocus>
          <br>
          <button id="login" class="btn btn-success ">Enter</button>
       </div>
@@ -59,7 +59,7 @@
          <div class="col-md-6">
             <div id="deposit">
                <h3>Deposit</h3>
-               <input id="depositAmount" class="form-control" type="text" placeholder="$ Amount you want to deposit">
+               <input id="depositAmount" class="form-control" type="text" placeholder="$ Amount you want to deposit" autofocus>
                <br>
                <!-- Deposit Button -->
                <button id="addDeposit" class="btn btn-success">Deposit</button>
@@ -71,11 +71,12 @@
                <input id="withdrawAmount" class="form-control" type="text" placeholder="$ Amount you want to withdraw">
                <br>
                <!-- Withdraw Button -->
-               <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+               <button id="addWithdraw" class="btn btn-danger">Withdraw</button>
             </div>
          </div>
       </div>
    </div>
+
    <script>
       // login button event handler
       const loginBtn = document.getElementById("login");
